@@ -18,7 +18,11 @@
   align-self: center;
 }
 
-
+.image{
+  justify-self:center;
+  text-align: center;
+  align-self: center;
+}
 
 input[type=text]{
   border: 1px solid #dfe1e5;
