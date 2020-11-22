@@ -2,18 +2,19 @@
   display: grid;
   grid-template-columns: repeat(3, 1fr);
   height: 100vh;
-  grid-template-rows: 0;
+  grid-template-rows: repeat(3, 1fr);
 }
 
 .links{
   grid-column: 3;
+  grid-row: 1; 
   justify-self: right;
   margin: 10px;
   font-size: large;
 }
 .search{
   grid-column: 2;
-  justify-self: center;
+  grid-row: 2;
   text-align: center;
   align-self: center;
 }
@@ -22,6 +23,14 @@
   justify-self:center;
   text-align: center;
   align-self: center;
+}
+
+.subtext{
+  color:#4285f4;
+  font: 16px/16px roboto-regular, arial, sans-serif;
+  position: relative;
+  bottom: 25px;
+  left: 105px;
 }
 
 input[type=text]{
@@ -42,3 +51,4 @@ input[type=submit]{
  body{
    margin:0;
  }
+ 
