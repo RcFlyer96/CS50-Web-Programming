@@ -12,6 +12,11 @@
   margin: 10px;
   font-size: large;
 }
+.containerAdv{
+    display: flex;
+    justify-content: left;
+    padding: 30px;
+}
 .search{
   grid-column: 2;
   grid-row: 2;
@@ -48,7 +53,7 @@ input[type=submit]{
   margin: 20px 5px;
  
 }
- body{
+ 
+body{
    margin:0;
  }
- 
