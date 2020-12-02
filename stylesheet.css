@@ -15,28 +15,38 @@
 .containerAdv{
     display: flex;
     justify-content: left;
-    padding: 30px;
 }
 .label{
   color: #d93025;
   font-size: 20px;
-  margin: 25px 35px;
+  padding: 5px 40px;
+  font-family: inherit;
+  border: 0;
+  border-bottom: 1px solid #ebebeb;
+}
+.image{
+  display: flex;
+  background-color: #f1f1f1;
+  height: 60px;
+  width: 100%;
+}
+.Find{
+  height: 30px;
+}
+.advancedItems form div{
+  margin: 40px 2% 0 45px;
 }
 
 .image img{
-  width: 5%;
+  width: 90px;
   height: auto;
   text-align: left;
+  align-self: center;
+  padding: 0 20px 0 15px;
 }
 .search{
   grid-column: 2;
   grid-row: 2;
-  text-align: center;
-  align-self: center;
-}
-
-.image{
-  justify-self:center;
   text-align: center;
   align-self: center;
 }
@@ -59,6 +69,7 @@ input[type=text]{
   font-size: 20px;
 }
 
+
 input[type=submit]{
   padding:8px;
   margin: 20px 5px;
@@ -67,4 +78,5 @@ input[type=submit]{
  
 body{
    margin:0;
+   font-family: arial,sans-serif;
  }
